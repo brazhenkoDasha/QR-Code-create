@@ -2,7 +2,7 @@ import os
 import requests
 from urllib.parse import quote
 
-SAVE_DIR = "/home/darya/Documents/qr/qr_codes_class9/П7"
+SAVE_DIR = "/path/to/dir"
 os.makedirs(SAVE_DIR, exist_ok=True)
 
 #папка со значениями куаров
