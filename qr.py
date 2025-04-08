@@ -3,11 +3,11 @@ import requests
 from urllib.parse import quote
 
 SAVE_DIRS = {
-    "class8": "/home/darya/Documents/qr/qr_codes_class8/519",
-    "class9": "/home/darya/Documents/qr/qr_codes_class9/519",
-    "class7": "/home/darya/Documents/qr/qr_codes_class7/519",
-    "class10": "/home/darya/Documents/qr/qr_codes_class10/519",
-    "class11": "/home/darya/Documents/qr/qr_codes_class11/519"
+    "class8": "/path/to/qr/qr_codes_class8/519",
+    "class9": "/path/to/qr/qr/qr_codes_class9/519",
+    "class7": "/path/to/qr/qr_codes_class7/519",
+    "class10": "/path/to/qr/qr_codes_class10/519",
+    "class11": "/path/to/qr/qr_codes_class11/519"
 }
 
 for path in SAVE_DIRS.values():
